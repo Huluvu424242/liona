@@ -33,7 +33,7 @@
     "url": "https://github.com/FunThomas424242/liona/issues"
   },
   "dependencies": {
-    "liona-speech-input": "0.0.1"
+    "liona-speech-input": "0.0.4"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
