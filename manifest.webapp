@@ -1,0 +1,15 @@
+{
+  "name": "liona",
+  "description": "Demoseite für die Webkomponenten der Liona Serie",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/icon-512.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Open Source Community && PIUG",
+    "url": "https://github.com/PIUGroup/"
+  },
+  "default_locale": "de",
+  "chrome": { "navigation": true }
+}

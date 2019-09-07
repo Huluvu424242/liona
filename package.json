@@ -1,48 +1,45 @@
 {
-  "name": "liona-speech-input",
-  "version": "0.0.2",
-  "description": "Web Component for speech input field",
-  "homepage": "https://github.com/funthomas424242/liona-speech-input#readme",
-  "main": "dist/index.bundle.js",
+  "name": "liona",
+  "version": "0.0.1",
+  "description": "Beispielanwendung und Demo für die Liona Webkomponenten",
+  "homepage": "https://github.com/FunThomas424242/liona",
+  "main": "bundle.js",
   "engines": {
     "node": "10.15.3"
   },
   "scripts": {
-    "clean": "rm -rf ./docs/bundle.js",
+    "clean": "rm -rf ./dist/bundle.js",
     "start": "concurrently \"npm run start-watch\" \"npm run start-server\" ",
     "start-watch": "webpack -d --watch",
     "start-server": "webpack-dev-server",
     "build": "npm run clean && webpack --production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preversion": "npm run build && git add dist",
-    "postversion": "git push && git push --tags"
+    "pruefeVersionen": "npm out"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FunThomas424242/liona-speech-input.git"
+    "url": "https://github.com/FunThomas424242/liona.git"
   },
   "keywords": [
-    "speech",
-    "speech-input",
-    "speech-output",
+    "liona",
+    "example",
+    "demo",
     "webcomponent",
     "custom-element"
   ],
   "author": "FunThomas424242 alias Huluvu424242 (Thomas Schubert)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FunThomas424242/liona-speech-input/issues"
+    "url": "https://github.com/FunThomas424242/liona/issues"
   },
-  "homepage": "https://github.com/FunThomas424242/liona-speech-input",
   "dependencies": {
-    "qrjs": "0.1.2"
+    "liona-speech-input": "0.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@babel/preset-env": "7.5.5",
     "babel-loader": "8.0.6",
     "concurrently": "4.1.2",
-    "http-server": "0.11.1",
     "webpack": "4.39.2",
     "webpack-cli": "3.3.8",
     "webpack-dev-server": "3.8.0"

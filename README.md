@@ -1,16 +1,14 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/liona-speech-input)
+# liona
 
-# liona-speech-input
-
-Die Webkomponente realisiert ein input tag mit Button zur Sprachein- und ausgabe.
+Das Projekt realisiert eine Webseite zur Demonstration der Webkomponenten aus der Liona Serie.
 
 ## Installation
 
-TODO: Describe the installation process
+Keine Installation notwendig, da nur Demo.
 
 ## Verwendung
 
-TODO: Write usage instructions
+Anschauen und staunen ;)
 
 ## Demo
 
@@ -27,7 +25,7 @@ TODO: Write usage instructions
 ```html
 <liona-speech-input></liona-speech-input>
 ```
-Zur [Live-Demo](https://funthomas424242.github.io/liona-speech-input/)
+Zur [Live-Demo](https://funthomas424242.github.io/liona/)
 
 
 ## Mitarbeit
@@ -40,25 +38,13 @@ Zur [Live-Demo](https://funthomas424242.github.io/liona-speech-input/)
 
 ## Releaselog
 
-### v0.0.2
-
-* Homepage gesetzt
-
 ### v0.0.1
 
-* Initiales Projektsetup basierend auf https://github.com/FunThomas424242/webspeech.example
+* Initiales Projektsetup basierend auf https://github.com/FunThomas424242/liona-speech-input
 
 ## Quellen
 
-* https://zellwk.com/blog/publish-to-npm/
-* https://medium.com/@svinkle/getting-started-with-webpack-and-es6-modules-c465d053d988
-* https://github.com/educastellano/qr-code
-* https://flaviocopes.com/es-modules/
-* https://www.sitepoint.com/understanding-es6-modules/
-* https://medium.com/javascript-in-plain-english/create-micro-frontends-using-web-components-with-support-for-angular-and-react-2d6db18f557a
-* https://www.cheatography.com/funthomas424242/cheat-sheets/webcomponents-native-javscript/
-* https://dev.to/bennypowers/lets-build-web-components-part-3-vanilla-components-4on3
-
+* https://www.sitepoint.com/bundle-static-site-webpack/
 
 ## Garantien
 
