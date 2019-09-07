@@ -25,7 +25,7 @@ Anschauen und staunen ;)
 ```html
 <liona-speech-input></liona-speech-input>
 ```
-Zur [Live-Demo](https://funthomas424242.github.io/liona/)
+Zur [Live-Demo](https://funthomas424242.github.io/liona/index.html)
 
 
 ## Mitarbeit
