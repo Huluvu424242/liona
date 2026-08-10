@@ -36,9 +36,9 @@
     "liona-speech-input": "0.0.4"
   },
   "devDependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/preset-env": "7.5.5",
-    "babel-loader": "8.3.0",
+    "@babel/core": "8.0.1",
+    "@babel/preset-env": "8.0.2",
+    "babel-loader": "10.1.1",
     "concurrently": "7.6.0",
     "webpack": "5.76.0",
     "webpack-cli": "5.0.1",
